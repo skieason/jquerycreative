@@ -2,7 +2,7 @@ String.prototype.repeat = function(num){
 	return new Array(num + 1).join(this);
 };
 
-var filter = ['ass', 'piss', 'hell', 'fuck', 'You could see there was blood coming out of her eyes. Blood coming out of her wherever.'];
+var filter = ['ass', 'piss', 'hell', 'fuck', 'blood', 'Blood', 'coming'];
 
 var filterIt = function (txt) {
 	for(var i=0; i<filter.length; i++){
