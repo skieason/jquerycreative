@@ -1,36 +1,92 @@
 .page {
 	background-color: grey;
+	background-image: url('https://img.4plebs.org/boards/pol/image/1463/46/1463467050864.jpg');
+	/*background-position: center;*/
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	overflow-y: scroll;
 }
 
-.box {
-	background-color: blue;
-	color: white;
-	width: 500px;
+.divider {
+	padding-bottom: 20px;
+	border-bottom: 5px solid white;
+	width: 100%;
+}
+#yes, #no {
+	cursor: pointer;
+}
+.big-box {
 	margin: 0 auto;
+	max-height: 100vh;
+}
+.box {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0.5);
+	color: white;
+	width: 45%;
+	/*margin: 0 auto;*/
+		overflow-y: scroll;
+		height: 560px;
+
+}
+
+.box2 {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0.5);
+	color: white;
+	width: 45%;
+	height: 560px;
+	/*margin: 0 auto;*/
+		overflow-y: scroll;
 }
 
 ul {
 	list-style-type: none !important;
-	width: 500px;
+	width: 90%;
 }
 
 li {
 	height: 2em;
 	word-wrap: break-word;
 	width: 90%;
+	margin-bottom: 40px;
 }
 
 input {
 	height: 2em;
-	width: 500px;
+	width: 90%;
 	padding: 15px 10px 15px 10px;
 	box-sizing: border-box;
 	text-align: center;
 	font-size: 1.3em;
 }
 
-.title {
+#title1 {
 	text-align: center;
 	line-height: 2em;
-	margin-bottom: -20px;
+	margin-bottom: 0px;
+}
+#title2 {
+	text-align: center;
+	line-height: 1.5em;
+	/*margin-bottom: -20px;*/
+	font-size: 1em;
+}
+#delete {
+	cursor: pointer;
+	width: 140px;
+	/*padding: 10px;*/
+	line-height: 2em;
+	padding: 0 5px 0 5px;
+	margin: 0 auto;
+	border-radius: 4px;
+	color: red;
+	background-color: white;
 }
