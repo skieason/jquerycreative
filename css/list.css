@@ -1,0 +1,36 @@
+.page {
+	background-color: grey;
+}
+
+.box {
+	background-color: blue;
+	color: white;
+	width: 500px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none !important;
+	width: 500px;
+}
+
+li {
+	height: 2em;
+	word-wrap: break-word;
+	width: 90%;
+}
+
+input {
+	height: 2em;
+	width: 500px;
+	padding: 15px 10px 15px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.title {
+	text-align: center;
+	line-height: 2em;
+	margin-bottom: -20px;
+}
